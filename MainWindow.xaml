@@ -17,10 +17,9 @@
         FontFamily="{DynamicResource MaterialDesignFont}">
     <Grid>
         <materialDesign:Card Padding="32" Margin="16">
-            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}" Text="Test Text :3"/>
         </materialDesign:Card>
-        <Button Content="Activate" HorizontalAlignment="Left" Margin="211,189,0,0" VerticalAlignment="Top" Width="75" Click="Click"/>
-        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="187,154,0,0" VerticalAlignment="Top" Width="124" IsIndeterminate="True"/>
+        <Button Content="Activate" HorizontalAlignment="Left" Margin="187,188,0,0" VerticalAlignment="Top" Width="125" Click="Click"/>
     </Grid>
 
 
